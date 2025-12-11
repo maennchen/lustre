@@ -13,7 +13,7 @@ jobs:
         id: ort
         uses: oss-review-toolkit/ort-ci-github-action@1805edcf1f4f55f35ae6e4d2d9795ccfb29b6021 # v1.1.0
         with:
-          image: "ghcr.io/oss-review-toolkit/ort-minimal:73.0.0"
+          image: "ghcr.io/oss-review-toolkit/ort-minimal:74.0.0"
           run: >-
             labels,
             cache-dependencies,
